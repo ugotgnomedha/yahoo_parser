@@ -1,12 +1,14 @@
-// _______       ___      .______     .___________. __    __
+package starterPart;// _______       ___      .______     .___________. __    __
 //|       \     /   \     |   _  \    |           ||  |  |  |
 //|  .--.  |   /  ^  \    |  |_)  |   `---|  |----`|  |__|  |
 //|  |  |  |  /  /_\  \   |      /        |  |     |   __   |
 //|  '--'  | /  _____  \  |  |\  \----.   |  |     |  |  |  |
 //|_______/ /__/     \__\ | _| `._____|   |__|     |__|  |__|
 
+import dbPart.TickerGetter;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import parserPart.YahooParser;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -34,8 +36,12 @@ public class Main {
 
             fis.close();
         } catch (IOException ex){
-            logger.error("Could not parse config file.\n", ex);
+            logger.error("Could not parse config file.\n" + ex);
         }
+
+
+        // Get ticker list from db and parse them from yahoo.
+        YahooParser.parseYahoo(TickerGetter.getTickers(configGetter));
 
     }
 }
