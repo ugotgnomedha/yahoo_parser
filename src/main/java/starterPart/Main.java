@@ -1,4 +1,5 @@
-package starterPart;// _______       ___      .______     .___________. __    __
+package starterPart;
+// _______       ___      .______     .___________. __    __
 //|       \     /   \     |   _  \    |           ||  |  |  |
 //|  .--.  |   /  ^  \    |  |_)  |   `---|  |----`|  |__|  |
 //|  |  |  |  /  /_\  \   |      /        |  |     |   __   |
@@ -21,7 +22,7 @@ public class Main {
         // Get config values.
         String configPath = "path/to/config";
         //String configPath = System.getProperty("log_parser_config");
-        ConfigGetter configGetter = new ConfigGetter();
+        ConfigGetSet configGetter = new ConfigGetSet();
 
         try {
             FileInputStream fis = new FileInputStream(configPath);
@@ -32,6 +33,7 @@ public class Main {
             configGetter.setDbUrl(prop.getProperty("DBurl"));
             configGetter.setDbUser(prop.getProperty("DBuser"));
             configGetter.setDbPass(prop.getProperty("DBpassword"));
+            configGetter.setTickerTable(prop.getProperty("DBtickertable"));
             ///
 
             fis.close();
@@ -41,7 +43,8 @@ public class Main {
 
 
         // Get ticker list from db and parse them from yahoo.
-        YahooParser.parseYahoo(TickerGetter.getTickers(configGetter));
+        YahooParser.parseYahoo(TickerGetter.getTickers(configGetter.getDbUrl(),
+                configGetter.getDbUser(), configGetter.getDbPass(), configGetter.getTickerTable()));
 
     }
 }

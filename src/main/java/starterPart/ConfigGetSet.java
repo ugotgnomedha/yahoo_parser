@@ -1,9 +1,18 @@
 package starterPart;
 
-public class ConfigGetter {
+public class ConfigGetSet {
     private String dbUrl;
     private String dbUser;
     private String dbPass;
+    private String tickerTable;
+
+    public String getTickerTable() {
+        return tickerTable;
+    }
+
+    public void setTickerTable(String tickerTable) {
+        this.tickerTable = tickerTable;
+    }
 
     public String getDbUrl() {
         return dbUrl;

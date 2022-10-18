@@ -1,0 +1,58 @@
+ERROR   2022-10-17 19:39:21,431 [main] TestFunctions  - Testing tickerGetter failed.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" already exists
+ERROR   2022-10-17 19:42:20,818 [main] TestFunctions  - Testing tickerGetter failed.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" already exists
+ERROR   2022-10-17 22:16:36,547 [main] TestFunctions  - Testing tickerGetter failed.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" already exists
+ERROR   2022-10-18 21:33:31,171 [main] TestFunctions  - Testing tickerGetter failed.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" already exists
+ERROR   2022-10-18 21:33:49,276 [main] TestFunctions  - Testing tickerGetter failed.
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "test_tickers__pkey"
+  Подробности: Key (ticker)=(ALNY) already exists.
+ERROR   2022-10-18 22:26:10,130 [main] TestFunctions  - Testing tickerGetter failed.
+org.postgresql.util.PSQLException: ERROR: column "ticekr" does not exist
+  Подсказка: Perhaps you meant to reference the column "test_tickers_.ticker".
+  Позиция: 119
+ERROR   2022-10-18 22:26:10,198 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
+ERROR   2022-10-18 22:27:05,574 [main] TestFunctions  - Testing tickerGetter failed.
+org.postgresql.util.PSQLException: ERROR: column "ticekr" does not exist
+  Подсказка: Perhaps you meant to reference the column "test_tickers_.ticker".
+  Позиция: 119
+ERROR   2022-10-18 22:27:05,599 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
+ERROR   2022-10-18 22:28:23,153 [main] TestFunctions  - Could not drop a test tickers table.
+org.postgresql.util.PSQLException: Этот Sstatement был закрыт.
+ERROR   2022-10-18 22:29:00,717 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
+ERROR   2022-10-18 22:29:14,045 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
+ERROR   2022-10-18 22:30:25,946 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
+ERROR   2022-10-18 22:31:55,302 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
+ERROR   2022-10-18 22:32:32,585 [main] TestFunctions  - Could not drop a test tickers table.
+org.postgresql.util.PSQLException: Этот Sstatement был закрыт.
+ERROR   2022-10-18 22:32:43,089 [main] TestFunctions  - Could not drop a test tickers table.
+org.postgresql.util.PSQLException: Этот Sstatement был закрыт.
+ERROR   2022-10-18 22:33:12,118 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
+ERROR   2022-10-18 22:34:12,627 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
+ERROR   2022-10-18 22:34:46,236 [main] TestFunctions  - Could not drop a test tickers table.
+org.postgresql.util.PSQLException: Этот Sstatement был закрыт.
+ERROR   2022-10-18 22:35:49,157 [main] TestFunctions  - Could not drop a test tickers table.
+org.postgresql.util.PSQLException: Этот Sstatement был закрыт.
+ERROR   2022-10-18 22:36:07,062 [main] TestFunctions  - Could not drop a test tickers table.
+org.postgresql.util.PSQLException: Этот Sstatement был закрыт.
+ERROR   2022-10-18 22:36:39,185 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
+  Позиция: 20
