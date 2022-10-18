@@ -56,3 +56,5 @@ org.postgresql.util.PSQLException: Этот Sstatement был закрыт.
 ERROR   2022-10-18 22:36:39,185 [main] dbPart.TickerGetter  - Could not get ticker list from database.
 org.postgresql.util.PSQLException: ERROR: relation "test_tickers_" does not exist
   Позиция: 20
+ERROR   2022-10-18 23:37:32,081 [main] TestFunctions  - Could not close statement/connection to database while resting tickerGetter.
+org.postgresql.util.PSQLException: Этот Sstatement был закрыт.
