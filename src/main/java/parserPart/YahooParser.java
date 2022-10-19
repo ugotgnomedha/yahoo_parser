@@ -1,11 +1,14 @@
 package parserPart;
 
-import java.util.List;
+public class YahooParser implements Runnable {
+    private final String ticker;
 
-public class YahooParser {
-    public static void parseYahoo(List<String> tickers){
-        for (String ticker : tickers) {
-            System.out.println(ticker);
-        }
+    public YahooParser(String ticker) {
+        this.ticker = ticker;
+    }
+
+    @Override
+    public void run() {
+        System.out.println(ticker);
     }
 }

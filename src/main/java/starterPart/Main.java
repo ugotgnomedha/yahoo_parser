@@ -1,4 +1,3 @@
-package starterPart;
 // _______       ___      .______     .___________. __    __
 //|       \     /   \     |   _  \    |           ||  |  |  |
 //|  .--.  |   /  ^  \    |  |_)  |   `---|  |----`|  |__|  |
@@ -6,22 +5,27 @@ package starterPart;
 //|  '--'  | /  _____  \  |  |\  \----.   |  |     |  |  |  |
 //|_______/ /__/     \__\ | _| `._____|   |__|     |__|  |__|
 
+package starterPart;
+
 import dbPart.TickerGetter;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import parserPart.YahooParser;
+import parserPart.ThreadCreator;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 
 public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
+
     public static void main(String[] args) {
 
         // Get config values.
-        String configPath = "path/to/config";
+        String configPath = ".../path/to/testConfig.properties";
         //String configPath = System.getProperty("log_parser_config");
+
         ConfigGetSet configGetter = new ConfigGetSet();
 
         try {
@@ -37,14 +41,18 @@ public class Main {
             ///
 
             fis.close();
-        } catch (IOException ex){
+        } catch (IOException ex) {
             logger.error("Could not parse config file.\n" + ex);
+            System.exit(555);
         }
 
-
         // Get ticker list from db and parse them from yahoo.
-        YahooParser.parseYahoo(TickerGetter.getTickers(configGetter.getDbUrl(),
-                configGetter.getDbUser(), configGetter.getDbPass(), configGetter.getTickerTable()));
+        List<String> tickers = TickerGetter.getTickers(configGetter.getDbUrl(),
+                configGetter.getDbUser(), configGetter.getDbPass(), configGetter.getTickerTable());
 
+        // Start threads for each individual ticker.
+        ThreadCreator.createThreads(tickers);
+
+        System.out.println("Number of threads " + Thread.activeCount());
     }
 }

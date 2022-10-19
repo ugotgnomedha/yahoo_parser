@@ -2,6 +2,7 @@ import dbPart.TickerGetter;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.Test;
+import parserPart.ThreadCreator;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,6 +14,11 @@ import static org.junit.Assert.assertEquals;
 
 public class TestFunctions {
     private static final Logger logger = LogManager.getLogger(TestFunctions.class);
+
+    @Test
+    public void testRandom(){
+
+    }
 
     @Test
     public void testTickerGetter() {

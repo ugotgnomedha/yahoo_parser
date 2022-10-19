@@ -15,9 +15,9 @@ public class TickerGetter {
         List<String> tickers = new ArrayList<>();
 
         try {
-            Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPass);
+            Connection connection = ConnHandle.connOpener(dbUrl, dbUser, dbPass);
 
-            PreparedStatement preparedStatement = connection.prepareStatement("SELECT ticker FROM "+tickerTable+"");
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT ticker FROM " + tickerTable + "");
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
