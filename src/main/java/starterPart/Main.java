@@ -23,7 +23,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Get config values.
-        String configPath = ".../path/to/testConfig.properties";
+        String configPath = "/Users/darthvader/Desktop/yahoo_parser/src/main/resources/testConfig.properties";
         //String configPath = System.getProperty("log_parser_config");
 
         ConfigGetSet configGetter = new ConfigGetSet();
