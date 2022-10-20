@@ -64,3 +64,25 @@ ERROR   2022-10-19 17:45:05,530 [main] dbPart.ConnHandle  - Could not open conne
 java.sql.SQLException: The url cannot be null
 ERROR   2022-10-19 17:45:49,200 [main] starterPart.Main  - Could not parse config file.
 java.io.FileNotFoundException: path/to/config (No such file or directory)
+ERROR   2022-10-20 20:16:05,680 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "null"
+  Позиция: 20
+ERROR   2022-10-20 20:17:05,420 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "null"
+  Позиция: 20
+ERROR   2022-10-20 20:17:51,753 [main] dbPart.TickerGetter  - Could not get ticker list from database.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "null"
+  Позиция: 20
+INFO    2022-10-20 20:20:25,238 [main] TestFunctions  - Test 1 passed.
+INFO    2022-10-20 20:35:24,279 [main] TestFunctions  - Test on getting tickers from the database to parse.
+Passed!
+ERROR   2022-10-20 20:40:34,611 [main] dbPart.ConnHandle  - Could not open connection to database.
+java.sql.SQLException: The url cannot be null
+ERROR   2022-10-20 20:44:13,735 [main] dbPart.ConnHandle  - Could not open connection to database.
+java.sql.SQLException: The url cannot be null
+ERROR   2022-10-20 20:44:45,016 [main] dbPart.ConnHandle  - Could not open connection to database.
+java.sql.SQLException: The url cannot be null
+ERROR   2022-10-20 20:45:31,687 [main] dbPart.ConnHandle  - Could not open connection to database.
+java.sql.SQLException: The url cannot be null
+ERROR   2022-10-20 20:46:13,839 [main] dbPart.ConnHandle  - Could not open connection to database.
+java.sql.SQLException: The url cannot be null

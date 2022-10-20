@@ -9,6 +9,8 @@ public class YahooParser implements Runnable {
 
     @Override
     public void run() {
-        System.out.println(ticker);
+        String url = "https://finance.yahoo.com/quote/" + ticker + "/key-statistics";
+
+
     }
 }

@@ -1,3 +1,4 @@
+import dbPart.ConnHandle;
 import dbPart.TickerGetter;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -40,9 +41,10 @@ public class TestFunctions {
         }
 
         // Create test table.
+        assert statement != null;
         List<String> testTickers = dbPart.TableCreatorRmver.testTableCreate(statement, testTickerTable);
 
-        assertEquals("Testing ticker getter failed.", testTickers, TickerGetter.getTickers(url, user, pass, testTickerTable));
+        assertEquals("Testing ticker getter failed.", testTickers, TickerGetter.getTickers(connection, testTickerTable));
 
         // Rmv test table.
         dbPart.TableCreatorRmver.dropTable(statement, testTickerTable);
@@ -54,5 +56,6 @@ public class TestFunctions {
         } catch (SQLException ex) {
             logger.error("Could not close statement/connection to database while resting tickerGetter.\n" + ex);
         }
+        logger.info("Test on getting tickers to parse from the database.\n" + "Passed!");
     }
 }
