@@ -9,8 +9,8 @@ import java.util.Properties;
 
 public class ConfigGetter {
     private static final Logger logger = LogManager.getLogger(Main.class);
-    public static void configGet(String configPath){
-        ConfigGetSet configGetSet = new ConfigGetSet();
+    public static GettersSetters configGet(String configPath){
+        GettersSetters gettersSetters = new GettersSetters();
 
         try {
             FileInputStream fis = new FileInputStream(configPath);
@@ -18,10 +18,10 @@ public class ConfigGetter {
             prop.load(fis);
 
             ///
-            configGetSet.setDbUrl(prop.getProperty("DBurl"));
-            configGetSet.setDbUser(prop.getProperty("DBuser"));
-            configGetSet.setDbPass(prop.getProperty("DBpassword"));
-            configGetSet.setTickerTable(prop.getProperty("DBtickertable"));
+            gettersSetters.setDbUrl(prop.getProperty("DBurl"));
+            gettersSetters.setDbUser(prop.getProperty("DBuser"));
+            gettersSetters.setDbPass(prop.getProperty("DBpassword"));
+            gettersSetters.setTickerTable(prop.getProperty("DBtickertable"));
             ///
 
             fis.close();
@@ -29,5 +29,6 @@ public class ConfigGetter {
             logger.error("Could not parse config file.\n" + ex);
             System.exit(555);
         }
+        return gettersSetters;
     }
 }

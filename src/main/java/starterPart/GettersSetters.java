@@ -1,10 +1,14 @@
 package starterPart;
 
-public class ConfigGetSet {
+import java.sql.Connection;
+
+public class GettersSetters {
     private String dbUrl;
     private String dbUser;
     private String dbPass;
     private String tickerTable;
+
+    private Connection connection;
 
     public String getTickerTable() {
         return tickerTable;
@@ -36,5 +40,13 @@ public class ConfigGetSet {
 
     public void setDbPass(String dbPass) {
         this.dbPass = dbPass;
+    }
+
+    public Connection getConnection() {
+        return connection;
+    }
+
+    public void setConnection(Connection connection) {
+        this.connection = connection;
     }
 }

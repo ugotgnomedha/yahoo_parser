@@ -2,7 +2,6 @@ package dbPart;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import starterPart.ConfigGetSet;
 
 import java.sql.*;
 import java.util.ArrayList;

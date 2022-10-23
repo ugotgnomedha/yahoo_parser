@@ -32,26 +32,23 @@ public class TestFunctions {
         // since this is a part of a test which is separate from main code.
 
         Connection connection = null;
-        Statement statement = null;
         try {
             connection = DriverManager.getConnection(url, user, pass);
-            statement = connection.createStatement();
         } catch (SQLException ex) {
             logger.error("Could not connect to database while testing tickerGetter.\n" + ex);
         }
 
         // Create test table.
-        assert statement != null;
-        List<String> testTickers = dbPart.TableCreatorRmver.testTableCreate(statement, testTickerTable);
+        assert connection != null;
+        List<String> testTickers = dbPart.TableCreatorRmver.testTableCreate(connection, testTickerTable);
 
         assertEquals("Testing ticker getter failed.", testTickers, TickerGetter.getTickers(connection, testTickerTable));
 
         // Rmv test table.
-        dbPart.TableCreatorRmver.dropTable(statement, testTickerTable);
+        dbPart.TableCreatorRmver.dropTable(connection, testTickerTable);
 
         // Close separately created connection/statement to database.
         try {
-            statement.close();
             connection.close();
         } catch (SQLException ex) {
             logger.error("Could not close statement/connection to database while resting tickerGetter.\n" + ex);
