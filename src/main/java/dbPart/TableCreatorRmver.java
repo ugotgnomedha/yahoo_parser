@@ -13,6 +13,24 @@ import java.util.List;
 public class TableCreatorRmver {
     private static final Logger logger = LogManager.getLogger(TableCreatorRmver.class);
 
+    public static void createYahooParserTable(Connection connection, String column) {
+        try {
+            Statement statement = connection.createStatement();
+            statement.executeUpdate("CREATE TABLE IF NOT EXISTS yahoo_parser()");
+            ///
+            switch (column) {
+                case "Date", "Fiscal_Year_Ends", "Most_Recent_Quarter" -> {
+                    statement.executeUpdate("ALTER TABLE yahoo_parser ADD COLUMN IF NOT EXISTS " + column + " DATE;");
+                }
+                default -> statement.executeUpdate("ALTER TABLE yahoo_parser ADD COLUMN IF NOT EXISTS " + column + " NUMERIC;");
+            }
+            ///
+            statement.close();
+        } catch (SQLException ex) {
+            logger.error("Could not create yahoo_parser table.\n" + ex);
+        }
+    }
+
     public static void dropTable(Connection connection, String tableName) {
         try {
             Statement statement = connection.createStatement();
