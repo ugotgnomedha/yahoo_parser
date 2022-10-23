@@ -5020,3 +5020,465 @@ ERROR   2022-10-23 19:55:01,918 [Thread-0] parserPart.YahooParser  - Could not p
 org.jsoup.HttpStatusException: HTTP error fetching URL. Status=999, URL=[https://finance.yahoo.com/quote/INTC/key-statistics]
 ERROR   2022-10-23 19:55:14,636 [Thread-0] parserPart.YahooParser  - Could not parse https://finance.yahoo.com/quote/INTC/key-statistics.
 org.jsoup.HttpStatusException: HTTP error fetching URL. Status=999, URL=[https://finance.yahoo.com/quote/INTC/key-statistics]
+ERROR   2022-10-24 02:00:28,880 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Ошибка ввода/вывода при отправке бэкенду
+ERROR   2022-10-24 02:00:28,882 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,882 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,882 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,882 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,883 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,883 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,883 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,883 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,883 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,884 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,884 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,884 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,884 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,884 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,884 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,884 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,884 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,885 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,885 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,885 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,885 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,885 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,886 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,886 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,886 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,886 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,886 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,886 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,886 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,887 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,887 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,887 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,887 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,887 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,888 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,888 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,888 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,888 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,888 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,888 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,889 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,889 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,889 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,889 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,889 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,889 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,890 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,890 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,890 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,890 [Thread-4] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,911 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,911 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,911 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,911 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,911 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,911 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,911 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,911 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,912 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,912 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,912 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,912 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,912 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,913 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,914 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,915 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,916 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:28,917 [Thread-3] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,218 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,218 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,219 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,219 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,219 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,219 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,219 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,219 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,219 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,220 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,220 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,220 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,220 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,220 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,220 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,220 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,221 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,222 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,222 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,222 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,222 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,222 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,222 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,222 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,223 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,223 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,223 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,223 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,223 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,223 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,223 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,224 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,225 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,225 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,225 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,225 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,225 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,225 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,225 [Thread-1] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,404 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,405 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,406 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,407 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+ERROR   2022-10-24 02:00:29,408 [Thread-0] dbPart.TableCreatorRmver  - Could not create yahoo_parser table.
+org.postgresql.util.PSQLException: Соединение уже было закрыто

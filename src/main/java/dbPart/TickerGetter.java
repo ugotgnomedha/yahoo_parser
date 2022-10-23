@@ -15,7 +15,7 @@ public class TickerGetter {
         List<String> tickers = new ArrayList<>();
 
         try {
-            PreparedStatement preparedStatement = connection.prepareStatement("SELECT ticker FROM " + tickerTable + "");
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT ticker, currency FROM " + tickerTable + "");
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {

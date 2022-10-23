@@ -13,8 +13,10 @@ import java.util.List;
 public class TableCreatorRmver {
     private static final Logger logger = LogManager.getLogger(TableCreatorRmver.class);
 
-    public static void createYahooParserTable(Connection connection, String column) {
+    // Synchronized means that ONLY one thread can enter this function at a time.
+    public synchronized static void createYahooParserTable(Connection connection, String column) {
         try {
+            System.out.println("I'm creating a table. " + column);
             Statement statement = connection.createStatement();
             statement.executeUpdate("CREATE TABLE IF NOT EXISTS yahoo_parser()");
             ///

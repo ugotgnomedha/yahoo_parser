@@ -7,8 +7,16 @@ public class GettersSetters {
     private String dbUser;
     private String dbPass;
     private String tickerTable;
-
     private Connection connection;
+    private Boolean yahooTableCreated = false;
+
+    public Boolean getYahooTableCreated() {
+        return yahooTableCreated;
+    }
+
+    public void setYahooTableCreated(Boolean yahooTableCreated) {
+        this.yahooTableCreated = yahooTableCreated;
+    }
 
     public String getTickerTable() {
         return tickerTable;

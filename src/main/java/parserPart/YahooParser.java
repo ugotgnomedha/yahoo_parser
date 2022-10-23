@@ -1,5 +1,6 @@
 package parserPart;
 
+import dbPart.TableCreatorRmver;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.jsoup.Jsoup;
@@ -23,7 +24,7 @@ public class YahooParser implements Runnable {
         this.gettersSetters = gettersSetters;
     }
 
-    private HashMap<String, String> tickerData (Elements elements) {
+    private HashMap<String, String> tickerData(Elements elements) {
         HashMap<String, String> tickerData = new HashMap<>();
 
         int i = 0;
@@ -32,9 +33,19 @@ public class YahooParser implements Runnable {
             if (i % 2 == 0) { // Header
                 header = value.text();
             } else { // Value
-                tickerData.put(header, value.text());
+                if (header.contains("Date") || header.contains("Fiscal Year Ends") || header.contains("Most Recent Quarter")) {
+                    tickerData.put(DataTransformers.translateNameToDB(header), DataTransformers.translateDateToDB(value.text()));
+                } else {
+                    tickerData.put(DataTransformers.translateNameToDB(header), DataTransformers.translateDataToDB(value.text()));
+                }
             }
             i++;
+        }
+
+        if (!gettersSetters.getYahooTableCreated()) {
+            TableCreatorRmver.createYahooParserTable(gettersSetters.getConnection(),
+                    DataTransformers.translateNameToDB(header));
+            gettersSetters.setYahooTableCreated(true);
         }
         return tickerData;
     }
