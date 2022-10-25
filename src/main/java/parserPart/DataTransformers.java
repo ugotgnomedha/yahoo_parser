@@ -39,16 +39,25 @@ public class DataTransformers {
     }
 
     public static String translateDataToDB(String data) {
-        float numbers = Float.parseFloat(data.substring(0, data.length() - 1));
         String transformed_data = "";
-        if (data.contains("K")) {
-            transformed_data = String.valueOf(numbers * 1000);
-        } else if (data.contains("M")) {
-            transformed_data = String.valueOf(numbers * 1000000);
-        } else if (data.contains("B")){
-            transformed_data = String.valueOf(numbers * 1000000000);
-        } else if (data.contains("T")){
-            transformed_data = String.valueOf(numbers * 1000000000000L);
+        if (!data.equals("N/A")) {
+            //System.out.println(data);
+            data = data.replace(",", "");
+            if (data.contains("K")) {
+                float parseFloat = Float.parseFloat(data.substring(0, data.length() - 1));
+                transformed_data = String.valueOf(parseFloat * 1000);
+            } else if (data.contains("M")) {
+                float parseFloat = Float.parseFloat(data.substring(0, data.length() - 1));
+                transformed_data = String.valueOf(parseFloat * 1000000);
+            } else if (data.contains("B")) {
+                float parseFloat = Float.parseFloat(data.substring(0, data.length() - 1));
+                transformed_data = String.valueOf(parseFloat * 1000000000);
+            } else if (data.contains("T")) {
+                float parseFloat = Float.parseFloat(data.substring(0, data.length() - 1));
+                transformed_data = String.valueOf(parseFloat * 1000000000000L);
+            } else {
+                transformed_data = data;
+            }
         }
         return transformed_data;
     }

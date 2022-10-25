@@ -14,7 +14,7 @@ import parserPart.ThreadCreator;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         // Get config values.
         String configPath = "/Users/darthvader/Desktop/yahoo_parser/src/main/resources/testConfig.properties";
@@ -29,7 +29,6 @@ public class Main {
         // Start threads for each individual ticker.
         ThreadCreator.createThreads(gettersSetters, tickers);
 
-        Thread.sleep(2000);
         System.out.println("Number of threads " + Thread.activeCount());
     }
 }

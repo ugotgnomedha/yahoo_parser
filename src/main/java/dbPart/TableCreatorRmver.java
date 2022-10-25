@@ -4,29 +4,41 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import starterPart.GettersSetters;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.Arrays;
 import java.util.List;
 
 public class TableCreatorRmver {
     private static final Logger logger = LogManager.getLogger(TableCreatorRmver.class);
 
-    // Synchronized means that ONLY one thread can enter this function at a time.
-    public synchronized static void createYahooParserTable(Connection connection, String column) {
+    public static void createYahooParserColumns(Connection connection, String column) {
         try {
-            System.out.println("I'm creating a table. " + column);
             Statement statement = connection.createStatement();
-            statement.executeUpdate("CREATE TABLE IF NOT EXISTS yahoo_parser()");
-            ///
+            System.out.println("----------");
+            System.out.println(column);
             switch (column) {
-                case "Date", "Fiscal_Year_Ends", "Most_Recent_Quarter" -> {
-                    statement.executeUpdate("ALTER TABLE yahoo_parser ADD COLUMN IF NOT EXISTS " + column + " DATE;");
-                }
-                default -> statement.executeUpdate("ALTER TABLE yahoo_parser ADD COLUMN IF NOT EXISTS " + column + " NUMERIC;");
+                case "Date", "Fiscal_Year_Ends", "Most_Recent_Quarter" ->
+                        statement.executeUpdate("ALTER TABLE yahoo_parser ADD COLUMN IF NOT EXISTS " + column + " DATE;");
+                case "Last_Split_Factor" ->
+                        statement.executeUpdate("ALTER TABLE yahoo_parser ADD COLUMN IF NOT EXISTS " + column + " VARCHAR;");
+                default ->
+                        statement.executeUpdate("ALTER TABLE yahoo_parser ADD COLUMN IF NOT EXISTS " + column + " NUMERIC;");
             }
-            ///
+            statement.close();
+        } catch (SQLException ex){
+            logger.error("Could not create columns for yahoo_parser table.\n" + ex);
+        }
+    }
+
+    public static void createYahooParserTable(Connection connection) {
+        try {
+            DatabaseMetaData dbm = connection.getMetaData();
+            ResultSet table = dbm.getTables(null, null, "yahoo_parser", null);
+            Statement statement = connection.createStatement();
+            if (!table.next()) {
+                statement.executeUpdate("CREATE TABLE IF NOT EXISTS yahoo_parser(ticker VARCHAR PRIMARY KEY, upload_date DATE DEFAULT CURRENT_TIMESTAMP)");
+            }
+            table.close();
             statement.close();
         } catch (SQLException ex) {
             logger.error("Could not create yahoo_parser table.\n" + ex);
