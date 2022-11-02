@@ -20,14 +20,13 @@ public class YahooParser implements Runnable {
 
     private final String ticker;
     private final GettersSetters gettersSetters;
-    private int counter;
     Semaphore s = new Semaphore(1);
-    private List<Map<String, String>> listOfData = new ArrayList<>(50);
+    private Integer counter;
 
-    public YahooParser(String ticker, GettersSetters gettersSetters, int i) {
+    public YahooParser(String ticker, GettersSetters gettersSetters, Integer counter) {
         this.ticker = ticker;
         this.gettersSetters = gettersSetters;
-        this.counter = i;
+        this.counter = counter;
     }
 
     private HashMap<String, String> tickerData(Elements elements) {
@@ -66,14 +65,15 @@ public class YahooParser implements Runnable {
     public void run() {
         String url = "https://finance.yahoo.com/quote/" + ticker + "/key-statistics";
         try {
+
             Document document = Jsoup.connect(url)
                     .header("Cookie",
-                            "A1=d=AQABBHNyVWMCEN6v5IN43o8Dy6GruY94djoFEgABBwG_VmOEY_Qsb2UB9iMAAAcIZXJVY53QTiM&S=AQAAArMYbLxmBV3k6XR_xCfUcNo;")
+                            "...")
                     .userAgent("Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6")
                     .get();
 
             Elements elements = document.getElementsByAttributeValue("class", "W(100%) Bdcl(c) ");
-            System.out.println(url);
+            //System.out.println(url);
 
             // Only one thread creates/checks a table.
             s.acquire();
@@ -84,33 +84,20 @@ public class YahooParser implements Runnable {
             }
             s.release();
 
-            System.out.println(tickerData(elements));
+            //System.out.println(tickerData(elements));
 
-            if (listOfData.size() < 50) {
-                listOfData.add(tickerData(elements));
-            } else {
-                TickerDataInserter.insertParsedData(gettersSetters, listOfData);
-                listOfData.clear();
-            }
-
+            TickerDataInserter.insertParsedData(gettersSetters, tickerData(elements));
 
             // Yahoo likes to put bots like this in timeout, so after 1000 requests it's better for us to stop for a little.
-            if (counter == 2){
-                try {
-                    Thread.sleep(1000);
-                    counter = 0;
-                } catch (InterruptedException ignored) {
-                }
-            }
-            System.out.println(counter);
+            System.out.println(url +" - "+ counter);
 
         } catch (IOException | InterruptedException ex) {
             logger.error("Could not parse " + url + ".\n" + ex);
         }
 
-        try {
-            gettersSetters.getConnection().close();
-        } catch (SQLException ignored) {
-        }
+//        try {
+//            gettersSetters.getConnection().close();
+//        } catch (SQLException ignored) {
+//        }
     }
 }

@@ -7,7 +7,9 @@ import parserPart.ThreadCreator;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
@@ -16,7 +18,10 @@ public class TestFunctions {
 
     @Test
     public void testRandom(){
-
+        Map<String, String> aaa = new HashMap<>();
+        aaa.put("Jack", "Black");
+        aaa.put("Rock", "Big");
+        System.out.println(aaa.keySet().toString().replaceAll("\\[", "").replace("]", ""));
     }
 
     @Test

@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigGetter {
-    private static final Logger logger = LogManager.getLogger(Main.class);
+    private static final Logger logger = LogManager.getLogger(ConfigGetter.class);
     public static GettersSetters configGet(String configPath){
         GettersSetters gettersSetters = new GettersSetters();
 
@@ -22,6 +22,7 @@ public class ConfigGetter {
             gettersSetters.setDbUser(prop.getProperty("DBuser"));
             gettersSetters.setDbPass(prop.getProperty("DBpassword"));
             gettersSetters.setTickerTable(prop.getProperty("DBtickertable"));
+            gettersSetters.setThreadPoolSize(Integer.parseInt(prop.getProperty("threadPoolSize")));
             ///
 
             fis.close();

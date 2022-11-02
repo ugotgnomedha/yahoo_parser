@@ -9,6 +9,15 @@ public class GettersSetters {
     private String tickerTable;
     private Connection connection;
     private Boolean yahooTableCreated = false;
+    private Integer threadPoolSize;
+
+    public Integer getThreadPoolSize() {
+        return threadPoolSize;
+    }
+
+    public void setThreadPoolSize(Integer threadPoolSize) {
+        this.threadPoolSize = threadPoolSize;
+    }
 
     public Boolean getYahooTableCreated() {
         return yahooTableCreated;
